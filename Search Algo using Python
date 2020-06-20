@@ -1,0 +1,23 @@
+#first we will create a function which takes the numbers and their indices as input and then we try to search thru the list,
+#if the number is found , index is returned 
+# if not -1 is returned 
+#this is a basic search algo implemented using python
+
+
+
+def searchalgo(alist,key):
+    for i in range(len(alist)):
+        if alist[i]==key:
+            return i
+        return -1
+    
+alist= input ('ENTER THE LIST OF NUMBERS :')
+alist=alist.split()
+alist=[int(x) for x in alist]
+key=int(input('The number to search for:'))
+
+index=searchalgo(alist,key)
+if index <0 :
+    print('{} was not found.'.format(key))
+else:
+    print('{}was found at index{}'.format(key,index))
