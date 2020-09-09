@@ -1,5 +1,5 @@
 # Search-Algorithms-using-Python
-1.first we will create a function which takes the numbers and their indices as input and then we try to search thru the list,
+1.first we will create a function which takes the numbers and their indices as input and then we try to search through the list,
 
 2.if the number is found , index is returned 
 
